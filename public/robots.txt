@@ -1,3 +1,271 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+
+
+* {
+    /* background-color: brown; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* padding: 0; */
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Gasq";
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    transition: .7s;
+}
+
+a:hover {
+    color: #9a9760;
+}
+
+li {
+    list-style: none;
+    /* text-decoration: none; */
+}
+
+.d-flex {
+    display: flex;
+    /* background-color: blue; */
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+/* .dis-block{
+    display: none;
+} */
+/*HEADER*/
+
+header {
+    height: 650px;
+    background-color: rgb(9, 2, 42);
+    padding-block: 20px;
+}
+
+nav {
+    margin-inline: 5vw;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.363);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+nav ul li {
+    /* padding-inline: 20px; */
+    display: none;
+}
+
+nav ul {
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.Logo-nav {
+    margin-right: 50px;
+    color: #fff;
+}
+
+.menu-hamburger {
+    left: 1vw;
+    right: 1vw;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: rgb(9, 2, 42, 0.9);
+    position: absolute;
+    text-align: center;
+    z-index: 1000;
+}
+
+.menu-hamburger li{
+padding: 1vw;
+}
+
+.container-header {
+    background-color: #a52a2a;
+    float: left;
+    /* clear: both; */
+    width: 100%;
+    /* margin: 0 100px; */
+}
+
+.header-left {
+    float: left;
+    width: calc(100%/2);
+    background-color: burlywood;
+}
+
+.img-person {
+    width: 40vw;
+    /* height: 100%; */
+    height: 40vw;
+    margin-left: 7vw;
+    /* animation */
+    position: relative;
+    animation-name: img;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        left: 0px;
+        top: 20px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.scroll-div {
+    position: relative;
+    /* bottom: 0; */
+}
+
+.scroll-divTwo {
+    position: absolute;
+    /* background-color: aquamarine; */
+    width: 10vw;
+    bottom: 0;
+
+}
+
+.mouse {
+    display: flex;
+    font-size: 2.7vw;
+    margin-bottom: 20px;
+    box-shadow: 0 0 80px #fff;
+
+    /* animation */
+    position: relative;
+    animation-name: mouse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mouse {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        left: 0px;
+        top: 20px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.scroll-div h2 {
+    text-align: center;
+    font-size: 1.2vw;
+    box-shadow: 0 0 80px #fff;
+}
+
+.header-right {
+    float: right;
+    width: calc(100%/2.1);
+    background-color: aqua;
+    /* height: 700%; */
+}
+
+.header-right>h1,
+h6 {
+    color: #fff;
+    margin-right: 5vw;
+    text-align: right;
+}
+
+.header-right h1 {
+    font-size: 5vw;
+    /* margin-top: 25vh; */
+    margin-top: 12vw;
+}
+
+.header-right h6 {
+    font-size: 2.5vw;
+    margin-top: 2vh;
+}
+
+.link-resume-social {
+    align-items: center;
+    background-color: blue;
+    padding: 1vw;
+}
+
+.link-resume-social ul li {
+    padding: 1vw;
+    border-radius: 100px;
+    margin: 5px;
+    background-color: #aaaaaa;
+}
+
+.link-resume-social ul li:hover {
+    background-color: #fff422;
+    box-shadow: 0 0 90px #fff422;
+}
+
+.icon-social {
+    font-size: 2.5vw;
+    display: flex;
+}
+
+.btn {
+    width: 15vw;
+    margin-right: 6vw;
+    background-color: #fff422;
+    border-radius: 25px;
+    border: 2px solid rgb(3, 5, 53);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    transition: .4s;
+}
+
+.btn:hover {
+    width: 14vw;
+    margin-right: 6.5vw;
+    background-color: #fff422;
+    box-shadow: 0 0 30px #fff422;
+}
+
+.btn p {
+    color: rgb(23, 11, 77);
+    font-family: "Gasq";
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.btn div {
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 3vw;
+    margin-right: 0px;
+    color: rgb(23, 11, 77);
+}

@@ -1,0 +1,142 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    header {
+        height: 60vw;
+    }
+
+    nav {
+        padding: 20px;
+    }
+
+    .header-right {
+        float: right;
+    }
+
+    .header-left {
+        float: left;
+    }
+
+    .scroll-div {
+        display: block;
+        position: relative;
+    }
+
+    .scroll-divTwo {
+        position: absolute;
+        width: 10vw;
+        bottom: 0;
+
+    }
+
+    .mouse {
+        display: flex;
+        font-size: 2.7vw;
+        margin-bottom: 20px;
+        color: #fff;
+
+        /* animation */
+        position: relative;
+        animation-name: mouse;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes mouse {
+        0% {
+            left: 0px;
+            top: 0px;
+        }
+
+        50% {
+            left: 0px;
+            top: 20px;
+        }
+
+        100% {
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    .scroll-div h2 {
+        text-align: center;
+        font-size: 1.2vw;
+        color: #fff;
+    }
+
+    .header-right>h1,
+    h6 {
+        margin-right: 5vw;
+    }
+
+    /* main */
+    .about-right {
+        display: flex;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* skill and article */
+    .card {
+        /* margin-block:none; */
+
+        /* margin-block: 10px; */
+    }
+
+    .row-item {
+        display: flex;
+        /* flex-direction:row; */
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .skill-item {
+        /* position: relative; */
+        /* background-color: #F9B500; */
+        width: 30%;
+        margin-top: 4%;
+    }
+
+    /* Contact */
+    .left-contact {
+        display: block;
+    }
+
+    .right-contact {
+        width: 35%;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .statistics div p {
+        font-size: 80px;
+        font-weight: 900;
+    }
+
+    .statistics div h6 {
+        font-size: 15px;
+        margin-inline: 3%;
+        width: 80%;
+
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    nav ul li {
+        padding-inline: 20px;
+        display: block;
+    }
+
+    .dis-block {
+        display: none;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
