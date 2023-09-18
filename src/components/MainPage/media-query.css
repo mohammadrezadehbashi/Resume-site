@@ -14,7 +14,7 @@
 
     .header-left {
         float: left;
-        padding-top:0px;
+        padding-top: 0px;
     }
 
     .scroll-div {
@@ -71,6 +71,7 @@
     }
 
     /* main */
+
     .about-right {
         display: flex;
         width: 40%;
@@ -79,27 +80,21 @@
     }
 
     /* skill and article */
-    .card {
-        /* margin-block:none; */
-
-        /* margin-block: 10px; */
-    }
+ 
 
     .row-item {
         display: flex;
-        /* flex-direction:row; */
         justify-content: space-between;
         flex-wrap: wrap;
     }
 
     .skill-item {
-        /* position: relative; */
-        /* background-color: #F9B500; */
         width: 30%;
         margin-top: 4%;
     }
 
     /* Contact */
+    
     .left-contact {
         display: block;
     }
