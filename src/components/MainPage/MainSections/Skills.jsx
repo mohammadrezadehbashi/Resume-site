@@ -9,8 +9,8 @@ function Skills({refSkills}) {
                     [...Array(15)].map(item => {
                         return (
                             <div className="skill-item ">
-                                <h1>sadsada</h1>
-                                <h2>sadasdddddd</h2>
+                                <h1>جاوااسکریپت</h1>
+                                <h2>متوسط</h2>
                             </div>
                         )
                     })

@@ -49,6 +49,8 @@
 
 .about-text {
     color: rgb(128, 127, 127);
+    text-align: right;
+    /* line-height:3vw; */
 }
 
 .statistics {
@@ -75,7 +77,8 @@
 }
 
 .about-img {
-    width: 250px;
+    /* width: 240px; */
+    width: 70%;
     height: 400px;
     /* text-align: center; */
     padding: 40px 20px;
