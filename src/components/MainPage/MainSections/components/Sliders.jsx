@@ -10,16 +10,9 @@ function Slliders(props) {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1
-
-    //   focusOnSelect: true,
-    //   infinite: true,
-    //   slidesToShow: 1,
-    //   slidesToScroll: 1,
-    //   speed: 500
     };
     return (
         <div >
-            {/* style={{ paddingTop:"10px",paddingBottom:'450px',width:720,height:200,borderRadius:50, background:"red"}}  */}
         <Slider {...settings} className="slider-video">
             <div className="video-div">
            <Video/>

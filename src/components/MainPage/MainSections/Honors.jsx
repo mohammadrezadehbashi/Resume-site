@@ -48,4 +48,3 @@ console.log(selectBtn);
 
 export default Honors;
 
-// className="img-card"
