@@ -66,11 +66,11 @@ function Header({ handleClick }) {
                         <div className="d-flex">
                             <ul className='social-link d-flex'>
                                 <li><a href=""><FaTelegram className='icon-social' /></a></li>
-                                <li><a href=""><FaInstagram className='icon-social' /></a></li>
+                                <li><a href="https://www.instagram.com/mohammad.reza.dehbashi/"><FaInstagram className='icon-social' /></a></li>
                                 <li><a href=""><FaTwitter className='icon-social' /></a></li>
-                                <li><a href=""><FaLinkedin className='icon-social' /></a></li>
+                                <li><a href="https://www.linkedin.com/in/mohammadreza-dehbashi-61984a22b/"><FaLinkedin className='icon-social' /></a></li>
                             </ul>
-                            <a className='btn'><div ><FaCloudDownloadAlt className='icon' /> <p>دانلود رزومه </p></div></a>
+                            <a className='btn' href={"./document/Blue-White-Professional-Training-Acting-Resume.pdf"} download><div ><FaCloudDownloadAlt className='icon' /> <p>دانلود رزومه </p></div></a>
                         </div>
                     </div>
                 </div>

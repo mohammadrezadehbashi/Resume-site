@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../../../public/font/Gasq.otf') ;
+    /* format('truetype') */
+  }
+
 * {
     /* background-color: brown; */
     /* width: 100%; */
@@ -8,8 +14,11 @@
 }
 
 /* پهنای کلی */
+
 body {
     font-family: "Gasq";
+    /* font-family: "Rubik"; */
+    /* font-weight: 100; */
     /* max-width: 1350px; */
     max-width: 1450px;
 }
