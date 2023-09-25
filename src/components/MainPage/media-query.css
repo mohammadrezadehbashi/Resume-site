@@ -102,6 +102,10 @@
     .right-contact {
         width: 35%;
     }
+
+    .menu-hamburger {
+        top: 118px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */

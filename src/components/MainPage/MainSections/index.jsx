@@ -9,14 +9,14 @@ import Honors from "./Honors";
 
 function MAinSections({refContact,refArticle,refVideos,refSkills,refAboutMe,refDoc}) {
     return (
-        <div>
+        <main>
             <AboutMe refAboutMe={refAboutMe}/>
             <Skills refSkills={refSkills}/>
             <Honors refDoc={refDoc}/>
             <VideoMe refVideos={refVideos}/>
             <ArticleMe refArticle={refArticle}/>
             <ContactMe refContact={refContact}/>
-        </div>
+        </main>
     );
 }
 

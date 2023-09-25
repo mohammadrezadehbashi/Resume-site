@@ -87,10 +87,11 @@ nav ul {
 .menu-hamburger {
     left: 1vw;
     right: 1vw;
+    top: 93px;
     border-radius: 10px;
     border: 1px solid #fff;
     background-color: rgb(9, 2, 42, 0.9);
-    position: absolute;
+    position: fixed;
     text-align: center;
     z-index: 1000;
 }
