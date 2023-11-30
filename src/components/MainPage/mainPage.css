@@ -90,14 +90,27 @@ nav ul {
     top: 93px;
     border-radius: 10px;
     border: 1px solid #fff;
-    background-color: rgb(9, 2, 42, 0.9);
+    background-color: #515459a1;
     position: fixed;
     text-align: center;
     z-index: 1000;
+    /* transition: height 2s; */
 }
+/* #menu-hamburger{
+    transition-timing-function: linear;
 
+} */
+/* .menu-hamburger-t {
+    height: 300px;
+} */
 .menu-hamburger li {
     padding: 1vw;
+}
+
+.menu-hamburger li:hover {
+    background-color: #09022a1c;
+    margin-inline: 12vw;
+    border-radius: 12px;
 }
 
 .container-header {

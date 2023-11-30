@@ -7,9 +7,9 @@ import "./mainSections.css"
 import "../media-query.css"
 import Honors from "./Honors";
 
-function MAinSections({refContact,refArticle,refVideos,refSkills,refAboutMe,refDoc}) {
+function MAinSections({ menu,setMenu,refContact,refArticle,refVideos,refSkills,refAboutMe,refDoc}) {
     return (
-        <main>
+        <main onClick={()=>menu===true ? setMenu(false):null}>
             <AboutMe refAboutMe={refAboutMe}/>
             <Skills refSkills={refSkills}/>
             <Honors refDoc={refDoc}/>

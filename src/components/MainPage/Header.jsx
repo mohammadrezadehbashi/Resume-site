@@ -4,11 +4,11 @@ import { FaSquareXmark, FaBarsStaggered, FaLaptopCode, FaTelegram, FaInstagram, 
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { useState } from 'react';
 import ModalMenu from '../components/ModalMenu';
+import TextIntro from "../components/TextIntro"
 
+function Header({ handleClick , setMenu , menu }) {
 
-function Header({ handleClick }) {
-
-    const [menu, setMenu] = useState(false)
+    // const [menu, setMenu] = useState(false)
     const handleMenu = () => {
         setMenu(!menu)
     }
@@ -16,7 +16,7 @@ function Header({ handleClick }) {
 
 
     return (
-        <header>
+        <header onClick={()=>menu===true ? setMenu(false):null}>
 
             <nav className='d-flex' style={{ position: "relative" }}>
                 <ul className='d-flex'>
@@ -42,7 +42,7 @@ function Header({ handleClick }) {
                 </div>
             </nav>
             {
-                <ModalMenu menu={menu} setMenu={setMenu} />
+                <ModalMenu menu={menu} setMenu={setMenu} handleClick={handleClick}/>
             }
 
             <section className='container-header'>
@@ -61,7 +61,10 @@ function Header({ handleClick }) {
 
                 <div className='header-right'>
                     <h1>محمد رضا دهباشی زاده</h1>
-                    <h6>! هستم Junior React Developer من </h6>
+                    {/* <h6>! هستم Junior React Developer من </h6> */}
+                    <h6>
+                        <TextIntro/>
+                    </h6>
                     <div className='link-resume-social '>
                         <div className="d-flex">
                             <ul className='social-link d-flex'>

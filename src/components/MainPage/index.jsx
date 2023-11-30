@@ -1,4 +1,4 @@
-import { Fragment, useRef } from "react";
+import { Fragment, useRef,useState } from "react";
 import Header from "./Header";
 import MAinSections from "./MainSections";
 import './mainPage.css';
@@ -6,6 +6,9 @@ import './media-query.css';
 import Footer from "./Footer";
 
 function MainPage() {
+
+  const [menu, setMenu] = useState(false)
+
 
   const refContact = useRef(null);
   const refArticle = useRef(null);
@@ -43,7 +46,7 @@ function MainPage() {
 
   return (
     <div>
-      <Header handleClick={handleClick} />
+      <Header handleClick={handleClick} menu={menu} setMenu={setMenu}/>
 
       <MAinSections refContact={refContact}
         refArticle={refArticle}
@@ -51,6 +54,9 @@ function MainPage() {
         refSkills={refSkills}
         refAboutMe={refAboutMe}
         refDoc={refDoc}
+
+        menu={menu}
+        setMenu={setMenu}
       />
 
       <Footer />
